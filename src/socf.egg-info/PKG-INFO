@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: socf
+Version: 0.1.0
+Summary: Self-Optimizing Control Framework built on Pyomo
+Author: Saket P. Dhake
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyomo
+
+# socf
+
+Self-Optimizing Control Framework (SOCF) in Python using Pyomo.
+
+## Installation
+
+```bash
+pip install -e .

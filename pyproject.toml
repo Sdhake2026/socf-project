@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "socf"
+version = "0.1.0"
+description = "Self-Optimizing Control Framework built on Pyomo"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Saket P. Dhake" },
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "pyomo",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

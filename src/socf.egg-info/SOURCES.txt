@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/socf/__init__.py
+src/socf/core.py
+src/socf.egg-info/PKG-INFO
+src/socf.egg-info/SOURCES.txt
+src/socf.egg-info/dependency_links.txt
+src/socf.egg-info/requires.txt
+src/socf.egg-info/top_level.txt
+tests/test_core.py
